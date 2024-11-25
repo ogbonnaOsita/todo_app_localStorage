@@ -54,7 +54,7 @@ const Tasks = () => {
       <FilterTasks onFilterChange={handleFilterChange} />
       {todos.length === 0 ? (
         <div className="flex justify-center items-center mt-6">
-          <p>No tasks found for the selected criteria</p>
+          <p>No tasks found</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">

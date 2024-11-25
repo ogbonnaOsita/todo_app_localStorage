@@ -73,7 +73,7 @@ const TaskDetails = ({ task, closeModal, updateTaskList }) => {
 
   return (
     <div className="task-details">
-      <div className="max-w-md mx-auto p-8 bg-[#07121b] rounded-md shadow-md form-container min-w-[30rem]">
+       <div className="md:max-w-md mx-auto p-6 md:p-8 bg-[#07121b] rounded-md shadow-md form-container max-w-sm">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-semibold text-white">Task Details</h2>
           <RiDeleteBin6Line
@@ -85,7 +85,7 @@ const TaskDetails = ({ task, closeModal, updateTaskList }) => {
           <div className="mb-4">
             <label
               htmlFor="title"
-              className="block text-gray-300 text-sm font-bold mb-2"
+              className="block text-gray-300 text-xs md:text-sm font-semibold md:font-bold mb-1 md:mb-2"
             >
               Title
             </label>
@@ -105,7 +105,7 @@ const TaskDetails = ({ task, closeModal, updateTaskList }) => {
           <div className="mb-6">
             <label
               htmlFor="description"
-              className="block text-gray-300 text-sm font-bold mb-2"
+              className="block text-gray-300 text-xs md:text-sm font-semibold md:font-bold mb-1 md:mb-2"
             >
               Description
             </label>
@@ -121,7 +121,7 @@ const TaskDetails = ({ task, closeModal, updateTaskList }) => {
           <div className="mb-4">
             <label
               htmlFor="date"
-              className="block text-gray-300 text-sm font-bold mb-2"
+              className="block text-gray-300 text-xs md:text-sm font-semibold md:font-bold mb-1 md:mb-2"
             >
               Date
             </label>
